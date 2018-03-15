@@ -168,11 +168,11 @@ a:hover {
     background-color: #fff;
   }
 
-  bold {
+  strong {
     transition: color 2000ms linear;
   }
 
-  bold:hover{
+  strong:hover{
     color: #c63232;
   }
 
