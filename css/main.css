@@ -1,5 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .quote {
-  font-family: 'Petit Formal Script', cursive;
+  font-family: "Petit Formal Script", cursive;
   color: white;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .third-section {
   color: white;
-  font-family: 'Petit Formal Script', cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 .fourth-section {
@@ -40,7 +40,7 @@ body {
   background-color: #464646;
   border-width: thick;
   border-style: solid;
-  border-radius: 0 75px 0 75px;
+  border-radius: 0 75px;
   margin: 0 auto;
 
   transition: background-color 1000ms linear;
@@ -58,7 +58,7 @@ body {
   background-color: #464646;
   border-width: thick;
   border-style: solid;
-  border-radius: 75px 0 75px 0;
+  border-radius: 75px 0;
   margin: 0 auto;
 
   transition: background-color 1000ms linear;
@@ -82,16 +82,12 @@ body {
 
   .stand-alone-three {
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
   }
 
   .stand-alone-four {
     text-align: center;
-    padding-top: 5rem;
-  }
-
-  .center-text {
-    text-align: center;
+    padding-top: 1rem;
   }
 
   .first-section {
@@ -105,14 +101,6 @@ body {
   }
 
   .third-section {
-    padding-top: 1rem;
-  }
-
-  .stand-alone-three {
-    padding-bottom: 1rem;
-  }
-
-  .stand-alone-four {
     padding-top: 1rem;
   }
 
@@ -176,7 +164,7 @@ body {
     transition: color 2000ms linear;
   }
 
-  .second-object:hover{
+  .second-object:hover {
     color: #c63232;
   }
 
