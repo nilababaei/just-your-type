@@ -11,11 +11,11 @@ body {
   color: white;
 }
 
-a {
+.first-object {
   transition: color 2000ms linear;
 }
 
-a:hover {
+.first-object:hover {
   color: #fff;
 }
 
@@ -88,6 +88,10 @@ a:hover {
   .stand-alone-four {
     text-align: center;
     padding-top: 5rem;
+  }
+
+  .center-text {
+    text-align: center;
   }
 
   .first-section {
@@ -168,15 +172,15 @@ a:hover {
     background-color: #fff;
   }
 
-  strong {
+  .second-object {
     transition: color 2000ms linear;
   }
 
-  strong:hover{
+  .second-object:hover{
     color: #c63232;
   }
 
-  a:hover {
+  .first-object:hover {
     color: #898686;
   }
 
