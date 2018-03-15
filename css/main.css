@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+a {
+  transition: color 2000ms linear;
+}
+
 a:hover {
   color: #fff;
 }
@@ -38,6 +42,8 @@ a:hover {
   border-style: solid;
   border-radius: 0 75px 0 75px;
   margin: 0 auto;
+
+  transition: background-color 1000ms linear;
 }
 
 .stand-alone:hover {
@@ -54,6 +60,8 @@ a:hover {
   border-style: solid;
   border-radius: 75px 0 75px 0;
   margin: 0 auto;
+
+  transition: background-color 1000ms linear;
 }
 
 .stand-alone-two:hover {
@@ -158,6 +166,10 @@ a:hover {
 
   .stand-alone-two:hover {
     background-color: #fff;
+  }
+
+  bold {
+    transition: color 2000ms linear;
   }
 
   bold:hover{
