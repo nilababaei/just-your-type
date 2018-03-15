@@ -1,0 +1,29 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote {
+  font-family: 'Londrina Outline', cursive;
+  color: white;
+}
+
+.first-section {
+  background-color: white;
+  color: white;
+  background-color: #c63232;
+}
+
+.second-section {
+  background-color: white;
+  color: white;
+  background-color: #c63232;
+  font-family: 'Londrina Outline', cursive;
+}
+
+.stand-alone {
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+}
