@@ -2,28 +2,117 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #c63232;
+}
+
 .quote {
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'Petit Formal Script', cursive;
   color: white;
 }
 
 .first-section {
-  background-color: white;
   color: white;
-  background-color: #c63232;
 }
 
 .second-section {
-  background-color: white;
   color: white;
-  background-color: #c63232;
-  font-family: 'Londrina Outline', cursive;
+}
+
+.third-section {
+  color: white;
+  font-family: 'Petit Formal Script', cursive;
 }
 
 .stand-alone {
-  border-color: black;
+  background-color: #464646;
   border-width: thick;
   border-style: solid;
-  border-top: none;
-  border-bottom: none;
+  border-radius: 0 75px 0 75px;
+  margin: 0 auto;
+}
+
+.stand-alone-two {
+  background-color: #464646;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 75px 0 75px 0;
+  margin: 0 auto;
+}
+
+.stand-alone-three {
+  color: #464646;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .stand-alone-three {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .stand-alone-four {
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .first-section {
+    padding-bottom: 1rem;
+  }
+
+  .second-section {
+    border-width: thick;
+    border-style: dotted;
+    margin: 0 auto;
+  }
+
+  .third-section {
+    padding-top: 1rem;
+  }
+
+  .stand-alone-three {
+    padding-bottom: 1rem;
+  }
+
+  .stand-alone-four {
+    padding-top: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    background-color: #464646;
+  }
+
+  .quote {
+    color: white;
+  }
+
+  .first-section {
+    color: white;
+  }
+
+  .second-section {
+    color: white;
+    background-color: black;
+  }
+
+  .third-section {
+    color: white;
+  }
+
+  .stand-alone {
+    background-color: #c63232;
+  }
+
+  .stand-alone-two {
+    background-color: #c63232;
+  }
+
+  .stand-alone-three {
+    color: #c63232;
+  }
+
 }
