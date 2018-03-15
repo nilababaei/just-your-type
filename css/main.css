@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+a:hover {
+  color: #fff;
+}
+
 .first-section {
   color: white;
 }
@@ -114,15 +118,22 @@ body {
 
   .first-section {
     color: white;
+    margin: 0 auto;
   }
 
   .second-section {
     color: white;
     background-color: black;
+    margin: 0 auto;
   }
 
   .third-section {
     color: white;
+    margin: 0 auto;
+  }
+
+  .fourth-section {
+    margin: 0 auto;
   }
 
   .stand-alone {
@@ -138,7 +149,23 @@ body {
   }
 
   .stand-alone-five {
-    margin-top: 3rem;
+    margin-top: 1rem;
+  }
+
+  .stand-alone:hover {
+    background-color: #fff;
+  }
+
+  .stand-alone-two:hover {
+    background-color: #fff;
+  }
+
+  bold:hover{
+    color: #c63232;
+  }
+
+  a:hover {
+    color: #898686;
   }
 
 }
