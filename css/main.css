@@ -24,6 +24,10 @@ body {
   font-family: 'Petit Formal Script', cursive;
 }
 
+.fourth-section {
+  color: white;
+}
+
 .stand-alone {
   background-color: #464646;
   border-width: thick;
@@ -31,6 +35,12 @@ body {
   border-radius: 0 75px 0 75px;
   margin: 0 auto;
 }
+
+.stand-alone:hover {
+  background-color: #898686;
+  color: #c63232;
+}
+
 
 .stand-alone-two {
   background-color: #464646;
