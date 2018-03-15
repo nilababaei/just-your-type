@@ -38,9 +38,11 @@ body {
 
 .stand-alone:hover {
   background-color: #898686;
-  color: #c63232;
 }
 
+.quote:hover {
+  color: #c63232;
+}
 
 .stand-alone-two {
   background-color: #464646;
@@ -50,7 +52,17 @@ body {
   margin: 0 auto;
 }
 
+.stand-alone-two:hover {
+  background-color: #898686;
+}
+
 .stand-alone-three {
+  color: #464646;
+}
+
+.stand-alone-five {
+  background-color: #898686;
+  border-radius: 75px;
   color: #464646;
 }
 
@@ -123,6 +135,10 @@ body {
 
   .stand-alone-three {
     color: #c63232;
+  }
+
+  .stand-alone-five {
+    margin-top: 3rem;
   }
 
 }
